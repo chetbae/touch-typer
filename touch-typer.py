@@ -32,10 +32,7 @@ def main():
     if len(options) != 0:
         for i, c in enumerate(char_arr):
             if c not in options and c != ' ': char_arr[i] = random.choice(options)
-
-    print(char_arr)
-
-    
+            
     # generate 
     num_of_rounds += 1
 
